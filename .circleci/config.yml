@@ -1,3 +1,5 @@
+version: 2.1
+
 jobs:
   build:
     working_directory: ~/ProductCatalog_v1
@@ -14,7 +16,7 @@ jobs:
           command: sudo chmod +x ./gradlew
       - run:
           name: Download Dependencies
-          commmand: ./gradlew androidDependencies
+          command: ./gradlew androidDependencies
       - save_cache:
           paths:
             - ~/.gradle
