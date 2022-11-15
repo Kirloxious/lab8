@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/ProductCatalog_v1
     docker:
-      - image: circleci/android:api-33-alpha
+      - image: circleci/android:33
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
