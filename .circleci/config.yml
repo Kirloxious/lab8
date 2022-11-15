@@ -1,6 +1,6 @@
 jobs:
   build:
-    working_directory: ~/ProductCatalo_v1
+    working_directory: ~/ProductCatalog_v1
     docker:
       - image: circleci/android:api-33-alpha
     environment:
